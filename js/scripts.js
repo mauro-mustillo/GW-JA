@@ -1,7 +1,7 @@
-let fullName = prompt("What's your name?");
+let fullName = prompt("What's your name?"); //asking for user name
 let colorOptions = prompt (" What's your favorite color? You can use only : red, orange, blue, yellow, green, grey, black, cyan, magenta, purple","Your favorite color option");
-let toUppercase = colorOptions.toUpperCase();
-let nameToUppercase = fullName.toUpperCase();
+let toUppercase = colorOptions.toUpperCase(); // it converts all answers into UPPERCASE and allows to match the case
+let nameToUppercase = fullName.toUpperCase(); // it converts all answers into UPPERCASE and allows to match the case
 switch (toUppercase) {
   case 'RED':
   alert(nameToUppercase + "!"  + " You like the " + toUppercase +  " Because You're on Fire today!");
